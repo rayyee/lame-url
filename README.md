@@ -11,6 +11,10 @@ but it is nano-scaled.
 
 ### Usage
 
+```
+yarn add lame-url
+```
+
 ```javascript
 const url = parse( "http://www.example.com/foo/bar?_sort=asc" );
 
