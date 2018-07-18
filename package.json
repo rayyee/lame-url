@@ -1,0 +1,30 @@
+{
+  "name": "lame-url",
+  "version": "0.1.0",
+  "description": "the library has url parse and stringify function. it`s lameduck, but it`s nano-scaled.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "ava",
+    "pretest": "yarn build",
+    "build": "babel -d ./dist ./lib"
+  },
+  "author": "rayyee",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "1.0.0-beta.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": "ie >= 9"
+          }
+        }
+      ]
+    ]
+  }
+}
