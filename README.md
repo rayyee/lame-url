@@ -1,5 +1,4 @@
-<center>⚠️🦆 lame-url</center>
-===
+<p align="center">⚠️🦆 lame-url</p>
 
 > The library has url parse and stringify function.    
 ⚠️⚠️⚠️ it is lameduck, because of that **no query object** **no protocol** **no authentication**.    
@@ -12,18 +11,20 @@ but it is nano-scaled.
 
 ### Usage
 
-    const url = parse( "http://www.example.com/foo/bar?_sort=asc" );
+```javascript
+const url = parse( "http://www.example.com/foo/bar?_sort=asc" );
 
-    console.log(url);
-    {
-        port: null,
-        resource: "www.example.com",
-        pathname: "foo/bar",
-        hash: "",
-        search: "_sort=asc",
-        href: "http://www.example.com/foo/bar?_sort=asc",
-        query: "_sort=asc"
-    }
+console.log(url);
+{
+    port: null,
+    resource: "www.example.com",
+    pathname: "foo/bar",
+    hash: "",
+    search: "_sort=asc",
+    href: "http://www.example.com/foo/bar?_sort=asc",
+    query: "_sort=asc"
+}
+```
 
 
 ### Related repos
